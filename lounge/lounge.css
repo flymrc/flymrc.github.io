@@ -49,6 +49,7 @@ h2 {
 
   background-image: url(images/cocktail.gif);
   background-repeat: repeat-x;
+  float: right;
 }
 #elixirs h2{color: black;}
 
@@ -56,7 +57,7 @@ h2 {
 
 #elixirs{line-height: 1;}
 
-#copy{font-size: 50%;
+#footer{font-size: 50%;
       text-align: center;
       line-height: normal;
       margin-top: 30px;}
@@ -64,3 +65,17 @@ h2 {
 .cd{font-style: italic;}
 
 .artist{font-weight: bold;}
+
+#elixirs a:link{color: #007e7e;}
+
+#elixirs a:visited{color: #333333;}
+
+#elixirs a:hover{
+          background:#f88396;
+          color: yellow;}
+
+ a:link{color: #007e7e;}
+
+a:visited{color: #333333;}
+
+
