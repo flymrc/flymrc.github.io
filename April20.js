@@ -4,12 +4,12 @@ function getMostCostEffectiveSolution(scores, costs, highscore) {
     var highscore;
     for(var i=0; i<scores.length; i++){
         if (scores[i] == highscore）{
+        if (costs>cost[i]){
             index=i;
+            cost =cost[i];
         }
-        if (costs>100){
-            cost=index;
-        }
-        return index;
+          }
+   
     }
     return index;
 }
